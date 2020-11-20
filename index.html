@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        html{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            background-color: aliceblue;
+        }
+
+        nav > ul{
+            list-style: none;
+            display: flex;
+            width: 100%;
+        }
+
+        nav ul li {
+            flex: 1;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            cursor: pointer; 
+        }
+
+        nav ul li a:hover {
+            color: lightcoral;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: antiquewhite;
+            padding: 15px;
+            padding-top: 5px; 
+        }
+
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <ul>
+        <li><a>about me</a></li>
+        <li><a>interests</a></li>
+        <li><a>contact</a></li>
+         </ul>
+    </nav>
+    <main>
     <h1>James Grasso JWD Profile</h1>
     <br>
-        <img src="me.jpg" alt="handsome man">
+        <img src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/41991164_10155858663381239_6532764970839441408_n.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=jErXGCTg_yQAX8TGel-&_nc_ht=scontent-syd2-1.xx&oh=b84cc79b0986d9a01525e887827bd7f2&oe=5FDE5069" alt="handsome man">
     <p>
         Hi my name is James, I'm learning to code!
     </p>
@@ -33,5 +83,6 @@
         <li>Dogs/animals</li>
         <li>Drinking tea :P</li>
     </ul>
+</main>
 </body>
 </html>
